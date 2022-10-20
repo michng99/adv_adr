@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/main_bg_"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btMonHoc"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#DD645F"
+            android:text="Môn học"
+            app:cornerRadius="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btBanDo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Bản đồ"
+            android:backgroundTint="#DD645F"
+            app:cornerRadius="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        android:gravity="center">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btTinTuc"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#DD645F"
+            android:text="Tin tức"
+            app:cornerRadius="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btMXH"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#DD645F"
+            android:text="Mạng Xã Hội"
+            app:cornerRadius="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

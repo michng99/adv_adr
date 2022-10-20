@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">adv_adr_prj</string>
+    <string name="don_t_have_">Bạn chưa có tài khoản? Đăng ký ngay</string>
+    <string name="dangNhap">Đăng nhập với tư cách khách</string>
+    <string name="my_files">My Files</string>
+    <string name="shared">Shared</string>
+
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+
+    <string name="facebook_app_id">513728450307667</string>
+    <string name="facebook_client_token">9dd8be33434d424e87b7b4a7f2479674</string>
+
+</resources>

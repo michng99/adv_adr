@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@drawable/main_bg_"
+    tools:context=".MonHocActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_DangKyMonHoc"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký môn học"
+        android:backgroundTint="#DD645F"
+        app:cornerRadius="12dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_MonHocDaDangKy"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Môn học đã đăng ký"
+        android:backgroundTint="#DD645F"
+        app:cornerRadius="12dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
